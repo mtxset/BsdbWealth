@@ -1,0 +1,90 @@
+{
+  "contract_name": "SafeMathMock",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "res",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "add",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "div",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "sub",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "a",
+          "type": "uint256"
+        },
+        {
+          "name": "b",
+          "type": "uint256"
+        }
+      ],
+      "name": "mul",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6101f08061001f6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636f10e2858114610069578063771602f71461008e578063a391c15b146100a9578063b67d77c5146100c4578063c8a4ac9c146100df575b600080fd5b341561007457600080fd5b61007c6100fa565b60405190815260200160405180910390f35b341561009957600080fd5b6100a7600435602435610100565b005b34156100b457600080fd5b6100a7600435602435610112565b005b34156100cf57600080fd5b6100a7600435602435610124565b005b34156100ea57600080fd5b6100a7600435602435610136565b005b60005481565b61010a8282610148565b6000555b5050565b61010a8282610162565b6000555b5050565b61010a828261017e565b6000555b5050565b61010a8282610195565b6000555b5050565b60008282018381101561015757fe5b8091505b5092915050565b600080828481151561017057fe5b0490508091505b5092915050565b60008282111561018a57fe5b508082035b92915050565b60008282028315806101b157508284828115156101ae57fe5b04145b151561015757fe5b8091505b50929150505600a165627a7a7230582033a9fdb005fac2d1cc20e6a630ec60fdff205bea5bff65fd280a07838402ab780029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1505641112962
+}
